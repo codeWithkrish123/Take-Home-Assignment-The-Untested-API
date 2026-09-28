@@ -1,0 +1,15 @@
+{
+  "name": "the-untested-api",
+  "version": "1.0.0",
+  "description": "Task Manager API - Take Home Assignment",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node task-api/src/app.js",
+    "test": "npm test --prefix task-api",
+    "coverage": "npm run coverage --prefix task-api"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}

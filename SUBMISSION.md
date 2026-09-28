@@ -85,10 +85,11 @@ Tests:       73 passed, 73 total
 ## 5. Live Demo & Links
 
 - **Git Repository:** https://github.com/codeWithkrish123/Take-Home-Assignment-The-Untested-API
-- **Live Deployment:** [Your Deployed API URL]
+- **Live Deployment:** https://task-manager-api-roan-one.vercel.app
 - **Sample Live Endpoints:**
-  - Health check: `GET /`
-  - List all tasks: `GET /tasks`
-  - Statistics: `GET /tasks/stats`
-  - Assign task: `PATCH /tasks/:id/assign`
+  - Health check: `GET https://task-manager-api-roan-one.vercel.app/`
+  - List all tasks: `GET https://task-manager-api-roan-one.vercel.app/tasks`
+  - Statistics: `GET https://task-manager-api-roan-one.vercel.app/tasks/stats`
+  - Assign task: `PATCH https://task-manager-api-roan-one.vercel.app/tasks/:id/assign`
+
 
