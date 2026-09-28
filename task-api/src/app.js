@@ -4,7 +4,17 @@ const taskRoutes = require('./routes/tasks');
 const app = express();
 
 app.use(express.json());
+
+app.get('/', (req, res) => {
+  res.json({
+    status: 'healthy',
+    message: 'Task Manager API is running',
+    documentation: '/tasks',
+  });
+});
+
 app.use('/tasks', taskRoutes);
+
 
 app.use((err, req, res, next) => {
   console.error(err.stack);
