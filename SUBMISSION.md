@@ -84,10 +84,11 @@ Tests:       73 passed, 73 total
 
 ## 5. Live Demo & Links
 
-- **Git Repository:** [Your GitHub Repository URL]
+- **Git Repository:** https://github.com/codeWithkrish123/Take-Home-Assignment-The-Untested-API
 - **Live Deployment:** [Your Deployed API URL]
 - **Sample Live Endpoints:**
-  - Health: `GET /`
-  - All Tasks: `GET /tasks`
-  - Stats: `GET /tasks/stats`
-  - Assign Task: `PATCH /tasks/:id/assign`
+  - Health check: `GET /`
+  - List all tasks: `GET /tasks`
+  - Statistics: `GET /tasks/stats`
+  - Assign task: `PATCH /tasks/:id/assign`
+
